@@ -22,6 +22,17 @@
         <!-- provide full path to kindlegen application if you need the fallback solution -->
         <path.to.kindlegen>/absolute/path/to/kindlegen</path.to.kindlegen>
     </properties>
+         
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://ncte202723.ncte.navy.local:80/artifactory/maven_release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://ncte202723.ncte.navy.local:80/artifactory/maven_snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>         
 
     <build>
         <defaultGoal>process-resources</defaultGoal>
