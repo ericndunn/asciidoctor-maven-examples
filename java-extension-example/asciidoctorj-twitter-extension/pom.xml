@@ -14,6 +14,17 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <asciidoctorj.version>2.4.2</asciidoctorj.version>
     </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://ncte202723.ncte.navy.local:80/artifactory/maven_release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://ncte202723.ncte.navy.local:80/artifactory/maven_snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>    
 
     <dependencies>
         <dependency>
