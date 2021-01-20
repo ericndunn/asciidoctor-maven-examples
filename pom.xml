@@ -24,7 +24,7 @@
 
     <modules>
         <module>asciidoc-maven-site-example</module>
-        <module>asciidoc-to-html-example</module>
+        <!-- <module>asciidoc-to-html-example</module>
         <module>asciidoc-to-revealjs-example</module>
         <module>asciidoctor-pdf-example</module>
         <module>asciidoctor-epub-example</module>
@@ -34,7 +34,7 @@
         <module>asciidoc-multiple-inputs-example</module>
         <module>docbook-pipeline-docbkx-example</module>
         <module>docbook-pipeline-jdocbook-example</module>
-        <module>java-extension-example</module>
+        <module>java-extension-example</module> -->
     </modules>
 
     <build>
